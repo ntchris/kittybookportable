@@ -1,0 +1,54 @@
+
+
+
+
+1
+
+ PSP can not get the correct HanZi filename.
+  therefore , 
+  
+    PSP_ChineseUtil::jis2cjk ( (unsigned char *)tempDirt.d_name , 
+                                     (unsigned char *) tempDirt.d_name  );
+   can NOT get the correct chinese char.
+   ( sometime) eg. 啊
+ 
+ so only use my special 口胡 show those <> char.
+
+ PSP_CNFONTS16_16::drawKouHuBitMap()
+
+
+
+bool PSP_CNFONTS16_16::drawHanZi16ToBMP ( unsigned short hanZi,   HanZi16FontBitMap &bitmap ) 
+                                           
+{
+   
+
+    //sanity checking
+    //if (  bitmap.data_p == NULL )return false;
+    //if (  bitmap.heigh < PSP_CNFONTS16_16::heigh ) return false;
+    //if (  bitmap.width < PSP_CNFONTS16_16::width ) return false;
+    if( bitmap.size < heigh * width ) return false;
+    // make sure the bitmap can contain the whole Hanzi dot matrix.
+    
+    
+     
+    HanZi hz;
+    hz._short = hanZi;
+    unsigned long HZKLibIndex = HanZiToHZKLibIndex ( hz );    
+    //!!!!!!
+    // printf( "index is %u\n", HZKLibIndex );
+    if ( HZKLibIndex == noFontHZKIndex )
+    {
+        return drawKouHuBitMap( bitmap  );
+    }
+    else
+    {
+       return getBitMapHZKLibIndex( HZKLibIndex , bitmap );
+    }   
+
+
+
+
+
+
+

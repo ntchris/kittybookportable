@@ -1,0 +1,37 @@
+
+
+FTF_DIR = ftf_src
+FTF_OBJ_DIR = ftf_objs
+
+ftf_objs/%.o : ftf_src/%.c
+	$(CC) $(CDEFS) $(CFLAGS) -c $< -o$@
+
+
+
+%.o:..\MYULTILITYClass\%.cpp
+	$(CC) $(CDEFS) $(CXXFLAGS) -c $< -o$@
+
+
+INCDIR = $(FTF_DIR)/include  
+INCDIR2 = ..\MYULTILITYClass\
+ 
+
+CFLAGS   := -O2 -Wall -I$(INCDIR) -I$(INCDIR2) $(CFLAGS)
+
+CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti -ggdb  -I$(INCDIR) -I$(INCDIR2)
+ASFLAGS = $(CFLAGS)
+
+LDFLAGS =
+
+ 
+include   FTFobjlist.mk
+
+
+
+t :gccmain.o PSP_TrueTypeFont.o PSP_Global.o  PSP_ChineseUtil.o $(FTFobjlist) \
+PSP_Window.o CommonString.o PSP_AscCnFont.o 
+	cc -o t gccmain.o CommonString.o PSP_TrueTypeFont.o PSP_Global.o PSP_ChineseUtil.o \
+PSP_AscCnFont.o PSP_Window.o  $(FTFobjlist) 
+	
+
+

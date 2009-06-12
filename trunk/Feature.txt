@@ -1,0 +1,82 @@
+
+Features:
+
+  Supp
+
+
+
+
+
+Features:
+
+ Ö§³ÖPSPÊú×Å¿´Êé
+
+ Ö§³Ö¿´ÊéµÄÍ¬Ê±ÌýMP3
+ 
+ Ö§³ÖHTMLÎÄ¼þ
+ 
+ Ö§³ÖTTF TrueType×ÖÌå, ×ÖÌå¿ÉÒÔÆ½»¬·Å´óËõÐ¡µ½ÂúÒâ.
+ 
+ Ö§³Ö×Ô¶¨Òå×ÖÌåÎÄ¼þ
+ 
+ Ö§³ÖZIPÑ¹Ëõ°ü.
+ 
+ 
+ 
+ chinagba.com - Y?Í¶?Jn€ 
+ °®ËÀÄãÁË£¬×òÌìËµ16´óµÄ¿Ï¶¨¾ÍÊÇÎÒÁËchinagba.com - 3¸÷iÏ½?
+ chinagba.com - ?pxé€¾OB?
+ 1.1°æÏÂ12ºÍ14×ÖÌåÏÂµÄÖÐÎÄÕæÊÇÌ«ÍêÃÀÁË£¡£¡£¡Ïà»úÃ»ÔÚ£¬²»È»°ïÄãÉÏ¸öÍ¼£¬ÎÒÓÃµÄsimsun.ttcchinagba.com - Œe¯“?Õà?
+ chinagba.com - Ž`‚™?¯÷ä— 
+ ¿ÉÊÇ»¹ÓÐµãµãÐ¡ÎÊÌâ£¬12ºÍ14×ÖÌåÏÂµÄÊý×ÖºÍÓ¢ÎÄ¶¼ÓÐµãÎÊÌâ£¬Äã×ÐÏ¸¿´¿´¾Í·¢ÏÖµÃÁË£¬Äã¿ÉÒÔ°ÑÍ¬ÑùµÄÎÄ±¾ÎÄ¼þÔÚÌ¨Ê½»úÉÏÓÃie´ò¿ª¶Ô±È£¬ÎÒÔÚÏëÕâ¸öÎÊÌâÒªÊÇ²»ºÃ½â¾öÊÇ·ñ¿ÉÒÔ¿¼ÂÇÖÐÎÄºÍÓ¢ÎÄ·ÖÉè²»Í¬µÄ×ÖÌåÄØ¡£¡£¡£chinagba.com - ?Hñ?÷Ý 
+ chinagba.com - îu?íºr?
+ ÔÙÓÐ¼¸¸öÐ¡½¨Òéchinagba.com - Yu ;Ö‘Tep 
+ chinagba.com - ?,ú?? 
+ 1£¬ÔÚ¿´ÊéµÄ¹ý³ÌÖÐ¿ÉÒÔ°´ÏÂselect¼üµ÷³öÉèÖÃ£¬²»È»Ã¿´Îµ÷Õû×ÖÌå´óÐ¡»òÕßÑÕÉ«¶¼ÒªÍË³öµ±Ç°µÄÊéchinagba.com - _•æ ?A4rJ 
+ 2£¬ÔÚPSPÏÂ½¨Á¢Ò»¸öBOOKÄ¿Â¼£¬Ã¿´Î´ò¿ªKittyBook¾ÍÓÃÕâ¸öÄ¿Â¼×÷ÎªÄ¬ÈÏÄ¿Â¼£¬½¨Òé´ó¼Ò¶¼°ÑÊé·ÅÔÚÕâ¸öÄ¿Â¼ÏÂ£¬²»È»Ã¿´ÎÕÒÆðÀ´ºÜÂé·³£¬·ÅÔÚ¸ùÄ¿Â¼ÏÂÓÖ²»±ã¹ÜÀíchinagba.com - _Ý¿ ?†Û—è 
+ £¨»òÕßÄÜ¹»¼Ç×¡ÉÏÒ»´Î´ò¿ªµÄÄ¿Â¼Ò²¿ÉÒÔ°¡£©chinagba.com - ?gßþxðÐ?
+ chinagba.com - !Í½,'t®§ 
+ 3£¬¼ÓÈëÐÐ¼ä¾àºÍ¶Î¼ä¾àÉèÖÃchinagba.com - Æ­= àÙ»û? 
+ 4£¬ÊúÆðÀ´chinagba.com - 5™þ¬l?#?
+ 5£¬ÔÙÓÐ¾ÍÊÇ°´¼ü×Ô¶¨Òåchinagba.com - ®|Þá¦”TL 
+ 6£¬³ÌÐòÖ÷½çÃæµÄ±³¾°Í¼ÉèÖÃchinagba.com - ûˆU5ûæ"?
+ chinagba.com - „•öý¨ñ?O 
+ ºÕºÕ£¬Ò»¿ÚÆøËµÁËÌ«¶à£¬º£º­º£º­ 
+
+
+
+
+ 
+ 
+Development Related:
+ 
+ Developed using C++ 
+ PSPSDK / Toolchain 
+ ÖØÐ´È«²¿»­Í¼Ð´×Öº¯ÊýÎªclass
+ ÀûÓÃÁËFreeTypeº¯Êý¿â
+ libwww to parse html
+ 
+ 
+ 
+ feature 1mhz
+ 
+ 
+ ·¢²¼Ö®Ç° ÒªÓÃÈ¥µôdebugÐÅÏ¢µÄ·½·¨À´±àÒë
+ 
+ 
+ 
+  
+
+ÏÈÐ»Ð»kittybookpsp´ó´ó¡£pspÉÏµÄ¶ÁÊéÈí¼þÓÃ¹ýºÜ¶à£¬²»¹ýÄ¿Ç°·¢ÏÖkittyµÄÓÃÀ´¿´txtÎÄ¼þÈ·ÊµºÜ°ô£¬½çÃæÎÒÒ²ºÜÏ²»¶¡£ÎÒÏÖÔÚÒ²»ù±¾ÓÃËüÀ´¿´txtÎÄ¼þ¡£ cn1.0Ö÷ÒªÓÃÀ´¿´¿´chm.htm.Ö®ÀàµÄÎÄÕÂ¡£
+
+±§Ç¸£¬ÓÃÁË·¢ÏÖÁËÐ©ÎÊÌâºÍcnºÜÏàËÆ£¬ÒÔÎªÊÇ²ÎÕÕcn10µÄÔ´´úÂëÐ´µÄ¡£¼ÈÈ»ÄãÎÊÆð£¬ÎÒ¾ÍËµÒ»ÏÂÓÃºóµÄ¸Ð¾õ£¬kitty°®²»°®Ìý¾Í......
+1¡¢Ã¿´Î¿´Êé¶¼ÒªÈ¥ÕÒÄ¿Â¼£¬Í¨³£ÊÇ´Óms0¸ùÄ¿Â¼¿ªÊ¼£¨µ±È»¿ÉÒÔÓÃÊéÇ©¹¦ÄÜ-----ÕâÒ²²úÉúÁËÒ»¸öÎÊÌâ£¬ÈçÏÂ2£©
+2¡¢ÊéÇ©¹¦ÄÜ---ºÃÏñÎÞ·¨ÖªµÀÄÇ¸öÊéÇ©ÊÇÄÄ±¾Êé£¬ÊéÇ©5¸öºÃÏóÉÙÁËµã¡£ºÇºÇ
+3¡¢¾ÍÊÇ²»ÄÜÍêÈ«ÈÏÊ¶ÖÐÎÄÊéÃû£¬ÓÐÂÒÂë¡£
+4¡¢ÎÒÒ»°ãÊÇÌÉÔÚ´²ÉÏ¿´ÊéµÄ¡£ËùÒÔ£¬ÓÐÊ±ºòÓÃÏÂ¼ü·­Ò³µÄÊ±ºò£¬ÈÝÒ×¹Îµ¹Ò£¸Ë£¨²»ÊÇºÜÑÏÖØ£¬¿ÉÄÜÊÇÎÒ×Ô¼ºÏ°¹ß²»ºÃ£¬¿ÉÄÜÏ°¹ßÁËÔÚgbaÉÏ¿´ÊéÓÃa\b¼üÁË£©
+5¡¢ÆäËû¾ÍÊÇ±È½Ï¹ý·ÖµÄÒªÇóÁË£ºÏÈÊÇÒ³Êý¡¢µç³ØÈÝÁ¿£¨ÓÐÊ±ºò¿´×Å¾Í·¢ÏÖµçÔ´µÆÔÚÉÁ£¬ÓÐ²»ÖªµÀÊ²Ã´Ê±ºòÍêµ°£¬¼±µÃºÜ£©
+6¡¢ÆäÊµ£¬ºÜ¶à¶«Î÷Äã¿´¿´´ó¼Ò¶Ôcn2.0ËùÆÚ´ýµÄ¹¦ÄÜ¾ÍÖªµÀÁË¡£
+7¡¢ËµÕæµÄ£¬kittybookpspºÜ²»´í£¬ÄÜ²»ÄÜ»»¸öicon£¬ÎÒ¾õµÃ»¹ÊÇÓÃÄã×Ô¼ºµÄ¶«Î÷±È½ÏºÃ¡£ËäÈ»ÎÒÒ²ÂùÏ²»¶kittyÕâ¸öicon¡£
+8¡¢kitty¼ÓÓÍ°¡£¬¶«Î÷»¹ÊÇÒªÓÐÌØÉ«£¬ ÃâµÃÈÃÈË¾õµÃºÍÄ³Ä³ºÜÏó¡£
+
+¶ÔÁË£¬1¡£1µÄÒÑ¾­ÔÚÓÃÁË£¬¶Ô°´¼ü·½ÃæµÄÐÞ¸ÄºÜÌåÌù¡£Ð»Ð»¡£Ê²Ã´Ê±ºò¿´µ½ÐÂ°æ¡£

@@ -1,0 +1,54 @@
+
+
+FTF_SRCDIR := ftf_src
+FTF_OBJ_DIR := ftf_objs
+
+#必须要在 定义了 FTF_OBJ_DIR  之后
+include   FTFobjlist.mk
+	
+TARGET = KittyBook
+
+OBJS = pspmain.o PSP_Global.o PSP_GRAPHICS.o PSP_AscCnFont.o PSP_TrueTypeFont.o \
+       PSP_Window.o CommonString.o PSP_FileUtil.o PSP_ChineseUtil.o KittyBook.o\
+       TextViewPad.o  WinComponent.o ColorPad.o ConfigWindow.o $(FTFobjlist)
+
+ 
+# 目录定义 开头不要加点  ./abc/不对
+
+
+INCDIR1 = $(FTF_SRCDIR)\include
+INCDIR2 = ..\MYULTILITYClass\
+
+LIBS = -lpsppower
+
+
+CFLAGS = -O2 -G0 -Wall
+CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti 
+ASFLAGS = $(CFLAGS)
+
+LDFLAGS =
+
+# Add in PSPSDK includes and libraries.
+CFLAGS   := $(CFLAGS) -I. -I$(PSPSDK)/include  -I$(INCDIR1) -I$(INCDIR2)
+
+ 
+
+
+EXTRA_TARGETS = EBOOT.PBP
+PSP_EBOOT_TITLE = Kitty Book Portable
+
+$(FTF_OBJ_DIR)/%.o:$(FTF_SRCDIR)/%.c
+	$(CC) $(CDEFS) $(CFLAGS) -c $< -o$@
+
+
+
+%.o:..\MYULTILITYClass\%.cpp
+	$(CC) $(CDEFS) $(CXXFLAGS) -c $< -o$@ 
+		
+
+	
+	
+include $(PSPSDK)\lib\build.mak
+
+
+
